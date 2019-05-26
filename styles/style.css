@@ -1,0 +1,56 @@
+html, body, div, header, ul {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #333;
+    color: #fff;
+}
+
+a {
+    color: rgb(31, 147, 255);
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/in-sanity-hero-image.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+header {
+    background-color: black;
+}
+
+.vertically-padded {
+    padding: 20% 0px;
+}
+
+.centered-content {
+    margin: auto;
+    width: 50%;
+}
+
+#logo {
+    width: 20%;
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+    list-style: none;
+    padding: 10px;
+	}
+	ul#horizontal-list li {
+		display: inline;
+    }
+        ul#horizontal-list li a {
+            color: white;
+        }
