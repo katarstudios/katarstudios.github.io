@@ -16,7 +16,7 @@ a {
 }
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://cdna.artstation.com/p/assets/images/images/018/595/694/large/katie-van-sanitygamedev.jpg?1559955165");
+    background-image: url("https://cdna.artstation.com/p/assets/images/images/018/595/694/large/katie-van-sanitygamedev.jpg?1559955165");
     height: 100%;
     width: 100%;
     background-size: cover;
