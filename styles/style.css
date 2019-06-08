@@ -1,6 +1,9 @@
 html, body, div, header, ul {
     margin: 0;
-    font-family: Arial;
+}
+
+p, h1, img, a {
+    font-family: arial;
 }
 
 html, body {
