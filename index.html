@@ -8,34 +8,37 @@
     <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 
+<!-- Header, nav -->
+<header class="nav">
+    <img id="hamburger-menu" src="https://static.thenounproject.com/png/703781-200.png" height="47" width="47" style="padding-top: 2px">
+    <nav class="table">
+        <ul id="horizontal-list">
+            <li><a href="about.html">Katar Studios</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="games.html">Games</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="press.html">Press</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
 <body>
-
-    <!-- Header, nav -->
-	<header>
-		<nav class="table">
-			<ul id="horizontal-list">
-				<li><a href="about.html">About</a></li>
-                <li><a href="games.html">Games</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="press.html">Press</a></li>
-                <li><a href="contact.html">Contact</a></li>
-			</ul>
-        </nav>
-	</header>
-
     <!-- Hero image, logo, description, call to action -->
     <section class="hero-image">
         <div class="vertically-padded">
-            <img id="logo" class="centered-content" src="images/katar-studio-logo.png" alt="Katar Studios logo">
-            <h1 class="centered-content">Just an indie game dev making awesome games.</h1>
-    
-            <article>
-                <p class="centered-content">Enter your email and I'll send you updates on my newest game 'In Sanity' once in a while!</p>
-                <form class="centered-content" action="">
-                    <input type="text" name="email" placeholder="You@email.com">
-                    <input type="submit" value="Submit">
+            <div class="transparent-black">
+                <img id="logo" class="centered-content" src="images/katar-studio-logo.png">
+                <h1 class="centered-content description">Just an indie game dev with a love for story and art.</h1>
+        
+                <article class="email">
+                    <p class="centered-content sign-up-text">Sign up below for updates on Sanity, my upcoming psychological thriller.</p>
+                    <form class="centered-content email-box"" action="">
+                            <input type="text" name="email" placeholder="You@email.com">
+                            <input class="submit" type="submit" value="Submit">
                     </form>
-            </article>
+                </article>
+            </div>
         </div>
     </section>
 
