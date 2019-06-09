@@ -131,12 +131,20 @@ nav.table {
     display: none;
 }
 
-/* for tablet */
-@media only screen and (min-width: 400px) {
+#hamburger-menu {
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+#hamburger-menu:hover {
+    background-color: white;
+}
+
+/* for desktop */
+@media only screen and (min-width: 850px) {
     
     #hamburger-menu {
         display: none;
-        cursor: pointer;
     }
 
     nav.table {
@@ -159,20 +167,13 @@ nav.table {
                 color: #e2e2e2;
                 text-decoration: none;
                 cursor: pointer;
-                padding: 18px 10px;
+                padding: 18px 30px;
                 font-weight: 700;
                 color: black;
             }
             ul#horizontal-list li a:hover {
                 background-color: white;
             }
-  }
-
-  /* for desktop */
-@media only screen and (min-width: 773px) {
-    ul#horizontal-list li a {
-        padding: 18px 30px;
-    }
   }
 
 .sign-up-text {
