@@ -56,7 +56,7 @@ input {
 
 .vertically-padded {
     position: absolute;
-    top: Calc(15%);
+    top: Calc(20%);
     width: 100%;
 }
 
@@ -67,7 +67,7 @@ input {
     }
 
     .vertically-padded {
-        top: Calc(15% + 0.2vw);
+        top: Calc(20% + 0.2vw);
     }
 
   }
