@@ -142,6 +142,14 @@ footer {
     color: white;
 }
 
+.article-metadata {
+    font-size: 0.6em;
+    color: rgb(204, 204, 204);
+    }
+    .article-metadata a {
+        color: #eee;
+    }
+
 .sanity-article-img {
     opacity: 0.9;
     background-color: rgb(12, 12, 53);
