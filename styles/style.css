@@ -142,6 +142,11 @@ footer {
     color: white;
 }
 
+.sanity-article-img {
+    opacity: 0.9;
+    background-color: rgb(12, 12, 53);
+}
+
 .about {
     background-color: #38ce6e;
 }
