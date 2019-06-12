@@ -3,10 +3,11 @@
 <html>
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Katar Studios</title>
     <link rel="stylesheet" type="text/css" href="styles/style.css">
- <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <!-- Header, nav -->
@@ -25,7 +26,8 @@
 </header>
 
 <body>
-    <!-- Hero image, logo, description, call to action -->
+
+    <!-- Landing page section -->
     <section class="hero-image">
         <div class="vertically-padded">
             <div class="transparent-black">
@@ -34,7 +36,7 @@
         
                 <article class="email">
                     <p class="centered-content sign-up-text">Sign up below for updates on Sanity, my upcoming psychological thriller.</p>
-                    <form class="centered-content email-box"" action="">
+                    <form class="centered-content email-box shake" action="">
                             <input type="text" name="email" placeholder="You@email.com">
                             <input class="submit" type="submit" value="Submit">
                     </form>
@@ -42,61 +44,83 @@
             </div>
         </div>
     </section>
+    <div class="black"></div>
+    <div class="hero-fade"></div> 
 
-    <section>
-        <h2>Games Under Development</h2>
-        <article>
-            <!-- collumn 1 -->
-            <div>
-                <h3>In Sanity</h3>
-                <img src="images/in-sanity-hero-image.jpg" alt="Katar Studios logo" height=300>
-            </div>
+    <div class="">
 
-            <!-- collumn 2 -->
-            <div>
-                <p>What an awesome game. Yada yada yada. Coming soon!</p>
-                <button type="button">Read More</button>
-            </div>
-        </article>
-    </section>
+        <!-- Games section -->
+        <section class="section">
+            <h2 class="games">Games</h2>
 
-	<section>
-        <h2>Featured Blog Posts</h2>
-		<article>
-			<header>
-				<h2>The making of In Sanity</h2>
-				<p>Posted on <time datetime="2019-05-25">May 25, 2019</time> by <a href="#">Katie Van</a>
-			</header>
-			<p>The making of In Sanity, from concept art to 3D models to code and bugs.</p>
-        </article>
-        
-        <article>
-			<header>
-				<h2>The making of In Sanity</h2>
-				<p>Posted on <time datetime="2019-05-25">May 25, 2019</time> by <a href="#">Katie Van</a>
-			</header>
-			<p>The making of In Sanity, from concept art to 3D models to code and bugs.</p>
-        </article>
-        
-        <article>
-			<header>
-				<h2>The making of In Sanity</h2>
-				<p>Posted on <time datetime="2019-05-25">May 25, 2019</time> by <a href="#">Katie Van</a>
-			</header>
-			<p>The making of In Sanity, from concept art to 3D models to code and bugs.</p>
-		</article>
-		
-	</section>
-
-	<aside>
-		<h2>About section</h2>
-		<p>Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-	</aside>
+            <!-- Sanity game -->
+            <article class="article col-2 hidden">
+                <img class="article-img" src="images/SanityPosterArt.png" alt="Sanity" height=300>
+                <div class="padded">
+                    <h3>Sanity</h3>
+                    <p>This sims-like psychological thriller is coming soon!</p>
+                    <button type="button">Read More</button>
+                </div>
+            </article>
+    
+            <!-- Hallway Runner game -->
+            <article class="article col-2 hidden">
+                <img class="article-img" src="https://i.ytimg.com/vi/2j6OaqN9Xa4/hqdefault.jpg" alt="Hallway Runner" height=300>
+                <div class="padded">
+                    <h3>Hallway Runner</h3>
+                    <p>When teachers told you not to run the halls, it was for a reason.</p>
+                    <button type="button">Read More</button>
+                </div>
+            </article>
+        </section>
+    
+        <!-- Featured blog posts section -->
+        <section class="section">
+            <h2>Featured Blog Posts</h2>
+            <article class="article col-3 hidden padded">
+                <img class="article-img" src="images/SanityPosterArt.png" alt="Sanity">
+                <header>
+                    <h3>The making of In Sanity</h2>
+                    <p>Posted on <time datetime="2019-05-25">May 25, 2019</time> by <a href="#">Katie Van</a>
+                </header>
+                <p>The making of In Sanity, from concept art to 3D models to code and bugs.</p>
+            </article>
+            
+            <article class="article col-3 hidden padded">
+                <img class="article-img" src="images/SanityPosterArt.png" alt="Sanity">
+                <header>
+                    <h3>The making of In Sanity</h2>
+                    <p>Posted on <time datetime="2019-05-25">May 25, 2019</time> by <a href="#">Katie Van</a>
+                </header>
+                <p>The making of In Sanity, from concept art to 3D models to code and bugs.</p>
+            </article>
+            
+            <article class="article col-3 hidden padded">
+                <img class="article-img" src="images/SanityPosterArt.png" alt="Sanity">
+                <header>
+                    <h3>The making of In Sanity</h2>
+                    <p>Posted on <time datetime="2019-05-25">May 25, 2019</time> by <a href="#">Katie Van</a>
+                </header>
+                <p>The making of In Sanity, from concept art to 3D models to code and bugs.</p>
+            </article>
+        </section>
+    
+        <!-- About section -->
+        <aside class="section">
+            <h2>About section</h2>
+            <article class="article hidden padded about">
+                <img class="about-photo" src="https://lh3.googleusercontent.com/a-/AAuE7mDrxG9hczgdwhIV0Xn2VhYa7N3d-jpiHM0Ijxvw=s96" alt="Sanity" height="50px" width="50px">
+                <h3 class="about-name">Katie Van</h2>
+                <p>I like making stuff, whether it's with a paintbrush, computer code, or sound clips. </p>
+                </article>
+        </aside>
+    </div>
 
 	<footer>
-		<p>Copyright 2009 Katar Studios, Katie Van</p>
+		<p>Copyright 2019 Katar Studios, Katie Van</p>
 	</footer>
 
+<script src="scripts/menu-frontend.js"></script>
 </body>
 
 </html>
