@@ -329,7 +329,7 @@ nav.table {
 
 /* http://waitanimate.wstone.io/#!/ */
 .shake {
-    animation: shake-animation 8s ease infinite;
+    animation: shake-animation 7s ease infinite;
     transform-origin: 50% 50%;
   }
   @keyframes shake-animation {
